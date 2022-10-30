@@ -14,7 +14,8 @@ export default defineConfig({
   history: {
     type: 'hash', // 打包后
   },
-  publicPath: process.env.NODE_ENV === 'production' ? '/vigor-design-mobile/' : '/', // 静态资源地址 ./其实也可以
+  base: process.env.NODE_ENV === 'production' ? '/vigor-design-mobile/' : '/', // 静态资源地址 ./其实也可以
+  publicPath: process.env.NODE_ENV === 'production' ? './' : '/', // 静态资源地址 ./其实也可以
   hash: true, // 这块是静态资源会标记hash 并不是路由中的hash 不要弄混了,
   sass: {
     prependData: "@import '~@/theme/variables.scss';",
@@ -24,7 +25,7 @@ export default defineConfig({
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/umijs/dumi-ts',
+      path: 'https://github.com/ouliwu/vigor-design-mobile',
     },
   ],
 });
