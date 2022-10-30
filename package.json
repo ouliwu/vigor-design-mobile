@@ -2,7 +2,7 @@
   "private": true,
   "name": "vigor-design-mobile",
   "version": "1.0.0",
-  "homepage": "https://hug-sun.github.io/vigor-design-mobile/",
+  "homepage": "https://github.com/ouliwu/vigor-design-mobile",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
