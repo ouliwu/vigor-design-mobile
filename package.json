@@ -1,6 +1,6 @@
 {
   "name": "vigor-design-mobile",
-  "version": "5.24.2",
+  "version": "1.2.0",
   "scripts": {
     "start": "dumi dev",
     "build": "gulp",
@@ -145,7 +145,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ant-design/ant-design-mobile.git",
+    "url": "git+https://github.com/ouliwu/vigor-design-mobile.git",
     "branch": "master",
     "platform": "github"
   }

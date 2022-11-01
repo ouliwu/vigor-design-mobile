@@ -126,7 +126,7 @@ function getViteConfigForPackage({ env, formats, external }) {
     build: {
       cssTarget: 'chrome61',
       lib: {
-        name: 'antdMobile',
+        name: 'vigorMobile',
         entry: './lib/es/index.js',
         formats,
         fileName: format => `${name}.${format}${isProd ? '' : `.${env}`}.js`,
@@ -171,7 +171,7 @@ function umdWebpack() {
             filename: 'vigor-design-mobile.js',
             library: {
               type: 'umd',
-              name: 'antdMobile',
+              name: 'vigorMobile',
             },
           },
           mode: 'production',
