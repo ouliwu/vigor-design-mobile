@@ -10,6 +10,6 @@ export const navs =
     },
     {
       title: 'GitHub',
-      path: 'https://github.com/ouliwu/vigor-design-mobile2',
+      path: 'https://github.com/ouliwu/vigor-design-mobile',
     },
   ]
