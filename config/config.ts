@@ -16,7 +16,7 @@ const config: IConfig = {
   title: 'Vigor Design Mobile ',
   logo: 'https://user-images.githubusercontent.com/48983788/199143833-07d9c5d9-6ddf-4d54-b6d2-8530fea2dec3.svg',
   favicon:
-    'https://gw.alipayobjects.com/zos/bmw-prod/69a27fcc-ce52-4f27-83f1-c44541e9b65d.svg',
+    'https://user-images.githubusercontent.com/48983788/199143833-07d9c5d9-6ddf-4d54-b6d2-8530fea2dec3.svg',
   navs,
   menus,
   resolve: {
