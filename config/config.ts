@@ -1,6 +1,7 @@
 import { IConfig } from 'dumi'
 import { menus } from './menus'
 import { navs } from './navs'
+const repo = 'vigor-design-mobile';
 
 const shouldDisableCSSVar = Boolean(process.env.DISABLE_CSS_VAR)
 
@@ -22,6 +23,8 @@ const config: IConfig = {
     includes: ['docs', 'src'],
     passivePreview: true,
   },
+  publicPath: `/${repo}/`,
+  base: `/${repo}`,
   alias: {
     'vigor-design-mobile/es': process.cwd() + '/src',
     'demos': process.cwd() + '/src/demos/index.ts',

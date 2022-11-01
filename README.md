@@ -1,34 +1,17 @@
 <div align="center">
 
-  <img src="https://gw.alipayobjects.com/zos/bmw-prod/b2c7ff8b-eba0-4af9-9dd5-0b5b17f42c57.svg" alt="logo" width="200" height="auto" />
+  <img src="https://user-images.githubusercontent.com/48983788/199143833-07d9c5d9-6ddf-4d54-b6d2-8530fea2dec3.svg" alt="logo" width="200" height="auto" />
   <h1>Vigor Design Mobile </h1>
 
   <p>
-    Essential UI blocks for building mobile web apps. 
+    react 移动端组件库
   </p>
 
-[![npm (tag)](https://img.shields.io/npm/v/vigor-design-mobile)](https://www.npmjs.com/package/vigor-design-mobile)
-[![GitHub Release Date](https://img.shields.io/github/release-date/ant-design/ant-design-mobile)](https://github.com/ant-design/ant-design-mobile/releases)
-[![npm](https://img.shields.io/npm/dw/vigor-design-mobile)](https://www.npmjs.com/package/vigor-design-mobile)
-[![npm](https://img.shields.io/npm/dw/vigor-design-mobile-v5-count?label=downloads%285.x%29)](https://www.npmjs.com/package/vigor-design-mobile)
-[![jsdelivr](https://img.shields.io/jsdelivr/npm/hm/vigor-design-mobile)](https://www.jsdelivr.com/package/npm/vigor-design-mobile)
-[![gzip size](https://img.badgesize.io/https:/unpkg.com/vigor-design-mobile/umd/vigor-design-mobile.js?label=gzip%20size&compression=gzip)](https://unpkg.com/browse/vigor-design-mobile@5/umd/vigor-design-mobile.js)
-[![Commit Activity](https://img.shields.io/github/commit-activity/m/ant-design/ant-design-mobile/master)](https://github.com/ant-design/ant-design-mobile/graphs/contributors)
-[![Issues help wanted](https://img.shields.io/github/issues-raw/ant-design/ant-design-mobile/help%20wanted?label=help%20wanted)](https://github.com/ant-design/ant-design-mobile/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/ant-design/ant-design-mobile/Check/v5)
-[![codecov](https://img.shields.io/codecov/c/gh/ant-design/ant-design-mobile?token=2kJyJBg1nK)](https://codecov.io/gh/ant-design/ant-design-mobile)
-[![GitHub](https://img.shields.io/github/license/ant-design/ant-design-mobile)](https://github.com/ant-design/ant-design-mobile)
-
   <h4>
-    <a href="https://mobile.ant.design">English Doc</a>
-  <span> · </span>
-    <a href="https://mobile.ant.design/zh">中文文档</a>
-  <span> · </span>
-    <a href="https://discord.gg/jmNvw4WFYn">Discord</a>
-  <span> · </span>
-    <a href="https://gw.alipayobjects.com/mdn/rms_25513e/afts/img/A*hBjlR4nUWjkAAAAAAAAAAAAAARQnAQ">钉钉</a>
-  </h4>
+    <a href="https://ouliwu.github.io/vigor-design-mobile/">中文文档</a>
 </div>
+
+### 安装
 
 ```bash
 $ npm install --save vigor-design-mobile
@@ -38,27 +21,14 @@ $ yarn add vigor-design-mobile
 $ pnpm add vigor-design-mobile
 ```
 
-- **Fast**: It is carefully optimized for harsh scenes, without configuration, you can have the best package size and
-  ultimate performance.
-- **Customizable**: Based on CSS variables, you can reliably and efficiently adjust the appearance of components or
-  create your own themes.
-- **Atomic**: The function of each component, neither more nor less, is exactly what you need.
-- **Fluent**: With smooth gestures and delicate animation, it helps the product create the ultimate experience.
+### 引入
 
-You can also play with vigor-design-mobile just in browser
-with [Codesandbox](https://codesandbox.io/s/vigor-design-mobile-snrxr?file=/package.json). No need to prepare development
-environment.
+直接引入组件即可，vigor-design-mobile 会自动为你加载 css 样式文件：
 
-If you found bugs or would like to request some new features, please consider opening
-an [issue](https://github.com/ant-design/ant-design-mobile/issues/new).
+```bash
+import { Button } from 'vigor-design-mobile'
+```
 
-If you have some question about how to use ant-mobile, you can start
-a [discussion thread](https://github.com/ant-design/ant-design-mobile/discussions).
+## 反馈与共建
 
----
-
-Thanks to all the contributors of vigor-design-mobile:
-
-<a href="https://github.com/ant-design/ant-design-mobile/graphs/contributors">
-  <img src="https://opencollective.com/ant-design-mobile/contributors.svg?width=960&button=false" alt="contributors" />
-</a>
+请访问 [GitHub](https://github.com/ouliwu/vigor-design-mobile/issues)
